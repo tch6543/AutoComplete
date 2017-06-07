@@ -1,0 +1,38 @@
+{
+  "name": "iproperty.autocomplete.sg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/ts-node ./server/server.ts",
+    "watch": "./node_modules/.bin/nodemon -V -w . --ext \".ts\" --exec \"npm run start\""
+  },
+  "author": "ken",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/bluebird": "^3.5.3",
+    "@types/dotenv": "^4.0.0",
+    "@types/express": "^4.0.35",
+    "@types/lodash": "^4.14.63",
+    "@types/node": "^7.0.14",
+    "@types/node-cache": "^3.0.31",
+    "@types/sequelize": "^4.0.51",
+    "@types/validator": "^6.2.0",
+    "http-server": "^0.9.0",
+    "nodemon": "^1.11.0",
+    "ts-node": "^3.0.2",
+    "typescript": "^2.2.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "human-readable-ids": "^1.0.1",
+    "lodash": "^4.17.4",
+    "node-cache": "^4.1.1",
+    "sequelize": "^3.30.4",
+    "tedious": "^2.0.0",
+    "validator": "^7.0.0"
+  }
+}
