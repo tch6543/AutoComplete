@@ -1,6 +1,6 @@
 
-import {Sequelize} from 'Sequelize';
-import * as ORM from "Sequelize";
+import {Sequelize} from 'sequelize';
+import * as ORM from "sequelize";
 
 export function initAuthModel(sequelize: Sequelize){
     return sequelize.define('AuthTbl', {

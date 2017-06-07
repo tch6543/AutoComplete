@@ -1,5 +1,5 @@
-import * as ORM from "Sequelize";
-import {Sequelize} from 'Sequelize';
+import * as ORM from "sequelize";
+import {Sequelize} from 'sequelize';
 import {connectionString, config} from "../config/connectionString";
 import {initAuthModel} from "./initAuthModel";
 

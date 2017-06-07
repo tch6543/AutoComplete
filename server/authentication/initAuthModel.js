@@ -1,5 +1,5 @@
 "use strict";
-var ORM = require("Sequelize");
+var ORM = require("sequelize");
 function initAuthModel(sequelize) {
     return sequelize.define('AuthTbl', {
         Id: { type: ORM.INTEGER, primaryKey: true },

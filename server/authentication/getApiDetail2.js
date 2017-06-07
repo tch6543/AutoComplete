@@ -2,7 +2,7 @@
 var _ = require("lodash");
 var appSetting_1 = require("../config/appSetting");
 var connectionString_1 = require("../config/connectionString");
-var ORM = require("Sequelize");
+var ORM = require("sequelize");
 ;
 var sequelize2 = new ORM(connectionString_1.config.Beta.ApikeyDb, connectionString_1.config.Beta.Uid, connectionString_1.config.Beta.Pass, {
     dialect: 'mssql',

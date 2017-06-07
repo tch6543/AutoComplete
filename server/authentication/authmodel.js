@@ -1,5 +1,5 @@
 "use strict";
-var ORM = require("Sequelize");
+var ORM = require("sequelize");
 var connectionString_1 = require("../config/connectionString");
 var initAuthModel_1 = require("./initAuthModel");
 var sequelize = new ORM(connectionString_1.config.Beta.ApikeyDb, connectionString_1.config.Beta.Uid, connectionString_1.config.Beta.Pass, {

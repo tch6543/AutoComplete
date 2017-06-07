@@ -1,5 +1,5 @@
 "use strict";
-var ORM = require("Sequelize");
+var ORM = require("sequelize");
 function initAutoCompleteModel(sequelize) {
     return sequelize.define('AutoCompleteTbl', {
         id: { type: ORM.UUID, primaryKey: true },

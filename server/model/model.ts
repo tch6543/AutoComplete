@@ -1,7 +1,7 @@
 
 
-import * as ORM from "Sequelize";
-import {Sequelize} from 'Sequelize';
+import * as ORM from "sequelize";
+import {Sequelize} from 'sequelize';
 import {initAutoCompleteModel} from "./initAutoCompleteModel";
 import {connectionString} from "../config/connectionString";
 

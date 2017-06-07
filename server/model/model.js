@@ -1,5 +1,5 @@
 "use strict";
-var ORM = require("Sequelize");
+var ORM = require("sequelize");
 var initAutoCompleteModel_1 = require("./initAutoCompleteModel");
 var connectionString_1 = require("../config/connectionString");
 var sequelize = new ORM(connectionString_1.connectionString.BETA_AUTOCOMPLETEDB, connectionString_1.connectionString.BETA_UID, connectionString_1.connectionString.BETA_PWD, {
